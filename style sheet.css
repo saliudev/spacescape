@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+*{
+    box-sizing: border-box ;margin: 0;
+    padding: 0;
+}
+
+li,a,button{
+    color:white;
+    background-color: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.Nav_links{
+    list-style: none;
+}
+.Nav_links li{
+    display: inline-block;
+    padding:  0px 10px;
+    
+}
+.Nav_links li a {
+    transition: all 0.3s ease-in 0s;
+    background-color: rgb(114, 114, 114);
+    border-radius: 10px;
+    
+}
+.Nav_links li a:hover {
+   color:lightblue; 
+   transition: all 0.3s ease-in 0s;
+}
+button{
+    height: 50%;
+    width: 200%;
+    padding: 10px 50 px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer; 
+    transition: all 0.3s ease-in 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+img{
+    width: 25%;
+    height: 75%;
+    padding:5px;
+}
+.rap{
+    background-color: rgb(61, 77, 87);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+div{flex-grow: 1;
+ 
+}
+header{
+    background-color: rgb(73, 73, 73);
+}
+h1{ padding-left: 10px;
+color: lightcyan;}
+body{
+    width: 100%;
+}
