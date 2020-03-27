@@ -1,76 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
-*{
-    box-sizing: border-box ;margin: 0;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
-li,a,button{
-    color:white;
+li,
+a,
+button {
+    color: white;
     background-color: none;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 200;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
 
 }
-.logo{
+
+.logo {
     cursor: pointer;
 }
-.Nav_links{
+
+.Nav_links {
     list-style: none;
 }
-.Nav_links li{
+
+.Nav_links li {
     display: inline-block;
-    padding:  0px 10px;
-    
+    padding: 0px 15px;
+
 }
+
 .Nav_links li a {
     transition: all 0.3s ease-in 0s;
     background-color: rgb(114, 114, 114);
     border-radius: 10px;
-    
+    padding: 5px;
 }
+
 .Nav_links li a:hover {
-   color:lightblue; 
-   transition: all 0.3s ease-in 0s;
+    color: lightblue;
+    transition: all 0.3s ease-in 0s;
 }
-button{
+
+button {
     height: 50%;
     width: 200%;
     padding: 10px 50 px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 30px;
-    cursor: pointer; 
+    cursor: pointer;
     transition: all 0.3s ease-in 0s;
 }
-button:hover{
-    background-color: rgba(0,136,169,0.8);
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
-img{
+
+img {
     width: 25%;
     height: 75%;
-    padding:5px;
+    padding: 5px;
 }
-.rap{
-    background-color: rgb(61, 77, 87);
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-div{flex-grow: 1;
- 
-}
-header{
-    background-color: rgb(73, 73, 73);
-}
-h1{ padding-left: 10px;
-color: lightcyan;}
-body{
+
+
+
+body {
     width: 100%;
+    background-image: url(https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    color:white
+}
+
+.grid-box>div:nth-child(odd) {
+    background-color: rgba(105, 105, 105, 0.514);
+}
+
+.grid-box>div:nth-child(even) {
+    background-color: rgba(85, 85, 85, 0.486)
+}
+.grid-box>div{
+    border-radius: 5%;
+}
+
+.box-1 {
+    grid-row: 1/2;
+}
+hr{
+    height: 150px;
+    grid-column: 1/5;
+    border: none;
+    background-color: #2980B9;
+}
+.box-2{
+    grid-row: 3/3;
+    grid-column: 1/5;
+    height: 350px;
+   
+  }
+
+
+.transbox {
+    backdrop-filter: opacity(3%);
+
+
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #797979;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(248, 246, 246, 0.2);
+  z-index: 1;
+  border-radius: 5%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(90, 89, 89);
+    border-radius: 6%;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
