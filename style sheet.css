@@ -38,7 +38,8 @@ header {
 
 .logo {
   cursor: pointer;
-  height: 100px;
+  height: 90px;
+  width: 108px;
 }
 
 .Nav_links {
