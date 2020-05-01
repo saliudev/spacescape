@@ -6,9 +6,6 @@
   padding: 0px;
   font-family: Roboto;
 }
-h1 {
-  padding: 5px;
-}
 
 .subhead{
     background-color: aliceblue;
@@ -38,8 +35,8 @@ header {
 
 .logo {
   cursor: pointer;
-  height: 82px;
-  width: 108px;
+  height: 65px;
+  width: 157px;
 }
 
 .Nav_links {
@@ -63,22 +60,6 @@ header {
 .Nav_links a:hover {
   color: rgb(237, 238, 238);
   background-color: rgba(10, 133, 190, 0.76);
-}
-
-button {
-  height: 100%;
-  width: 100%;
-  padding: 20px;
-  background-color: rgba(207, 34, 4, 0.76);
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in 0s, color 0.3s ease-in;
-}
-
-button:hover {
-  background-color: rgba(180, 28, 2, 0.966);
-  color: rgb(237, 238, 238);
 }
 
 body {
@@ -105,15 +86,15 @@ body {
 
 .grid-box > div {
   border-radius: 20px;
-  padding: 5px;
-  margin: 5px;
+  padding: 15px;
+  margin: 15px;
 }
 
 hr {
-  height: 20%;
-  grid-column: 1/5;
+  height: .5%;
   border: none;
-  background-color: rgb(180, 0, 0);
+  background-color: rgba(10, 158, 226, 0.76);
+  margin: 10px 0px;
 }
 .grid-box-2{
 display: flex;
