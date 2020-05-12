@@ -3,24 +3,56 @@
 
 <head>
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
-    <link rel="stylesheet" href="style sheet.css" />
+   <link rel="stylesheet" href="style sheet.css">
+    <script src="JavaScript.js"></script>
     <title>SpacEscape</title>
-    <link rel="icon" href="Images//title.png" type="image/x-icon">
+    <link rel="icon" href="image/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <img class="logo" src="Images//title.png" alt="logo">
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="Research.html">Research</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Team.html">Team</a>
+    <a href="Privacy.html"><u>Privacy</u></a>
+    <a href="Instructions.html">Instructions</a>
+    <a href="News.html">News</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
     <div class="background">
-        <header>
-            <img class="logo" src="Images//title.png" alt="logo">
-            <div class="Nav_links">
-                <a href="index.html">Home</a>
-                <a href="Research.html">Research</a>
-                <a href="Contact.html">Contact</a>
-                <a href="Team.html">Team</a>
-                <a href="Privacy.html"><u>Privacy</u></a>
-                <a href="Instructions.html">Instructions</a>
-            </div>
-        </header>
     </div>
-    </body>
-    </html>
+    
+    <br>
+    <h1 class="subhead"><u>Privacy Policy</u></h1>
+    <div class="grid-box">
+        <div>
+            <h2>SpacEscape Team built the [SpacEscape] app as a Free app. This SERVICE is provided by SpacEscape Team at
+                no cost and is intended for use as is.
+
+                This page is used to inform visitors regarding the policies with the collection, use, and disclosure of
+                Personal Information if anyone decided to use this Service.
+            </h2>
+        </div>
+        <div>
+            <h2>
+                If you choose to use this Service, then you agree to the collection and use of information in relation
+                to this policy. The Information that we collect is used for providing and improving the Service. We will
+                not use or share your information with anyone except as described in this Privacy Policy.
+            </h2>
+        </div>
+    </div>
+</body>
+
+</html>
